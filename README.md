@@ -26,6 +26,8 @@ Sensors collect data and send it to their respective nodes for processing. The s
 The Master gathers data from both buses and transmits it to a PC, where Python software handles visualization and logging.
 
 ## Project Structure
+
+```
 .
 ├── Master/
 │   ├── Master.ino
@@ -43,3 +45,4 @@ The Master gathers data from both buses and transmits it to a PC, where Python s
 │   └── Temperature_node.ino
 │
 └── Python/
+```
